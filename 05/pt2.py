@@ -63,7 +63,7 @@ class Vent:
             iis = range(0, abs(self.start.x - self.end.x) + 1)
             print(self)
             possers = [Position(self.start.x + xdir * i, self.start.y + ydir * i) for i in iis]
-            print(f'first: {possers[0]}, fin: {possers[-1]}')
+            print(f'firsts: {possers[0]}, fin: {possers[-1]}')
             return possers
 
     def __str__(self):
